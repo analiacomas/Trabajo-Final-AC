@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+	  <title>Analía Comas TP FINAL</title>
+	  <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <link rel="icon" href="./images/logo.png" >
+	  <link href="css/style.css" type="text/css" rel="stylesheet">	   
+ </head>
+
+
+<body class="content">
+<nav class="principal">
+ <a href="index.html">		
+   <svg width="200" height="80" >
+     <rect x="45" y="5" width="60" height="35" fill="#F0E9D2" rx="5" id="mov"/>	
+     <rect x="50" y="10" width="50" height="25" fill="#495579" rx="5" id="mov2"/>
+	 <polygon points="55,45 30,63 115,63 94,45" fill="#F0E9D2" id="mov" />
+	 <polygon points="60,48 43,58 104,58 89,48" fill="#495579" id="mov2"/>
+	</svg>
+</a>
+
+    </svg>	
+    <ul class="menu">
+    	<li class="item-menu"><a class="item-link" href="./historia.html">HISTORIA</a></li>
+    	<li class="item-menu"><a class="item-link" href="./historia.html">JUGUEMOS</a></li>
+    </ul>
+  
+</nav>
+<header class="codigo">
+	<div class="text">
+		<h1>JUGUEMOS UN POCO</h1>
+	</div>
+</header>
+
+<main>
+  <h2>Armemos el rompecabezas y veamos que imagen es</h2>
+ <section class="rompecabezas">
+ 	   <div class="cajas">
+        <div class="caja" id="soltar1"><p>Arrastre y Suelte la imagen aquí</p></div>
+        <div class="caja" id="soltar2"><p>Arrastre y Suelte la imagen aquí</p></div>
+        <div class="caja" id="soltar3"><p>Arrastre y Suelte la imagen aquí</p></div>
+     </div>
+     <div id="cajasIma">
+     		<img id="c-ima1" src="./images/rompe2.png" alt="imagen-rompecabezas">
+     		<img id="c-ima2" src="./images/rompe1.png" alt="imagen-rompecabezas">
+    	  <img id="c-ima3" src="./images/rompe3.png" alt="imagen-rompecabezas">
+     </div>
+   </section>
+<button onclick="reinicio()" class="btn-video reinicio">Reiniciar</button>
+</main>
+
+</body>
+
+<script src="js/d&d.js" type="text/javascript"></script>
+</html>
